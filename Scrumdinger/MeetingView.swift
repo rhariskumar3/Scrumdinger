@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MeetingView: View {
+    let scrum: DailyScrum
+    
     var body: some View {
         VStack {
             ProgressView(value: 5, total: 15)
@@ -30,7 +32,7 @@ struct MeetingView: View {
             Circle()
                 .strokeBorder(lineWidth: 24)
             HStack {
-                Text("Speaker 1 of 3")
+                Text("Speaker 1 of \(scrum.attendees.count)")
                 Spacer()
                 Button(action: {}){
                     Image(systemName: "forward.fill")
@@ -44,6 +46,6 @@ struct MeetingView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MeetingView()
+        MeetingView(scrum: DailyScrum.sampleData[0])
     }
 }
