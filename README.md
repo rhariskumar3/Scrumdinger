@@ -11,6 +11,7 @@
 <p align="center">
   <p align="center">
     iOS Sample Project using Swift UI
+    Scrumdinger keeps a list of daily scrums that the user attends, and displays that list in its root view.
   </p>
 </p>
 
