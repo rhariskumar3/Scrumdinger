@@ -12,8 +12,16 @@
   <p align="center">
     iOS Sample Project using Swift UI
     Scrumdinger keeps a list of daily scrums that the user attends, and displays that list in its root view.
+  </p align="center">
+  <p>
+  iOS App Dev Tutorials - https://developer.apple.com/tutorials/app-dev-training/
   </p>
 </p>
+
+## Tour of the App
+Many software engineering teams use daily meetings, known as scrums, to plan their work for the day. Scrums are short meetings where each attendee discusses what they accomplished yesterday, what they are working on today, and any obstacles that might impact their work.
+
+This module guides you through the development of Scrumdinger, an iOS app that helps users manage their daily scrums. To help keep scrums short and focused, Scrumdinger uses visual and audio cues to indicate when and how long each attendee should speak. The app also displays a progress screen that shows the time remaining in the meeting and creates a transcript that users can refer to later.
 
 ## Features
 
@@ -25,6 +33,7 @@
 
 - iOS 15.0+
 - Xcode 13.0+
+- Swift UI
 
 ## Meta
 
