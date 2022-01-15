@@ -26,54 +26,15 @@
 - iOS 15.0+
 - Xcode 13.0+
 
-## Installation
-
-#### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `YourLibrary` by adding it to your `Podfile`:
-
-```ruby
-platform :ios, '15.0'
-use_frameworks!
-```
-
-To get the full benefits import `YourLibrary` wherever you import UIKit
-
-``` swift
-import UIKit
-import YourLibrary
-```
-#### Carthage
-Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/YourLibrary.framework` to an iOS project.
-
-```
-github "yourUsername/yourlibrary"
-```
-#### Manually
-1. Download and drop ```YourLibrary.swift``` in your project.  
-2. Congratulations!  
-
-## Usage example
-
-```swift
-import EZSwiftExtensions
-ez.detectScreenShot { () -> () in
-    print("User took a screen shot")
-}
-```
-
-## Contribute
-
-We would love you for the contribution to **YourLibraryName**, check the ``LICENSE`` file for more info.
-
 ## Meta
 
 Harish SK – [@sk_harish](https://twitter.com/sk_harish) – r.hariskumar3@gmail.com
 
-Distributed under the FREE license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/rhariskumar3/Scrumdinger](https://github.com/rhariskumar3/)
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.1-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
